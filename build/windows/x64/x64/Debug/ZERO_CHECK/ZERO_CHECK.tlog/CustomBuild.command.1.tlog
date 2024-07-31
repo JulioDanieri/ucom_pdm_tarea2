@@ -1,0 +1,10 @@
+^C:\USERS\JULIO\DESKTOP\UCOM\DISPOSITIVOS-MOVILES\APPJULIO\BUILD\WINDOWS\X64\CMAKEFILES\F4E4FE2E466DC5435E181B6EA5EF3E69\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/julio/Desktop/UCOM/dispositivos-moviles/appjulio/windows -BC:/Users/julio/Desktop/UCOM/dispositivos-moviles/appjulio/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/julio/Desktop/UCOM/dispositivos-moviles/appjulio/build/windows/x64/app1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

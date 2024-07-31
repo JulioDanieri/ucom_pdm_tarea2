@@ -1,0 +1,1 @@
+ C:\\Users\\julio\\Desktop\\UCOM\\dispositivos-moviles\\appjulio\\.dart_tool\\flutter_build\\13ea4bd156df8c9974660e3d720a998f\\native_assets.yaml: 
